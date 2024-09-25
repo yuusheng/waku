@@ -1,5 +1,5 @@
-import { Config } from 'waku/config';
+import { defineConfig } from 'waku/config';
 
-export default {
+export default defineConfig({
   basePath: '/test/',
-} satisfies Config;
+});

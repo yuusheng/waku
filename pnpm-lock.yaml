@@ -455,7 +455,7 @@ importers:
         specifier: 19.0.0-rc-d6cb4e77-20240911
         version: 19.0.0-rc-d6cb4e77-20240911(react-dom@19.0.0-rc-d6cb4e77-20240911(react@19.0.0-rc-d6cb4e77-20240911))(react@19.0.0-rc-d6cb4e77-20240911)(webpack@5.94.0)
       waku:
-        specifier: 0.21.2
+        specifier: workspace:*
         version: link:../../packages/waku
     devDependencies:
       '@types/react':

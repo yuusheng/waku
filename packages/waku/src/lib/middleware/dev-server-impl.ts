@@ -363,7 +363,7 @@ export const devServer: Middleware = (options) => {
       };
 
       const mainJs = `${config.basePath}${config.srcDir}/${SRC_MAIN}`;
-      const entriesFile = `${vite.config.root}${config.basePath}${config.srcDir}/${SRC_ENTRIES}`;
+      const entriesFile = `${vite.config.root}/${config.srcDir}/${SRC_ENTRIES}`;
 
       await processModule(mainJs);
       await processModule(entriesFile);
